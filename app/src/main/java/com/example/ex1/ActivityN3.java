@@ -1,6 +1,8 @@
 package com.example.ex1;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,9 @@ public class ActivityN3 extends AppCompatActivity {
         TextView pwd =findViewById(R.id.password);
         user.setText(username);
         pwd.setText(code);
+    }
+    public void back(View view){
+        Intent intent=new Intent(this,ActivityN2.class);
+        startActivity(intent);
     }
 }

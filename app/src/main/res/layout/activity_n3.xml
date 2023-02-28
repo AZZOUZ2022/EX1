@@ -19,7 +19,7 @@
             <TextView
                 android:id="@+id/loginText"
                 android:layout_width="309dp"
-                android:layout_height="114dp"
+                android:layout_height="70dp"
                 android:text="@string/info"
                 android:textAlignment="center"
                 android:textColor="@color/purple_700"
@@ -51,6 +51,16 @@
                 android:textColor="@color/black"
                 android:textColorHighlight="@color/cardview_dark_background" />
 
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/purple"
+            android:onClick="back"
+            android:text="Back"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
         </LinearLayout>
 
 </LinearLayout>
